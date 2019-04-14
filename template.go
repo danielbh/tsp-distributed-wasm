@@ -6,6 +6,7 @@ var html = template.Must(template.New("chat_room").Parse(`
 <html>
 <head>
     <title>{{.roomid}}</title>
+		<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
 		<script src="https://malsup.github.com/jquery.form.js"></script>

@@ -5,6 +5,7 @@ Distribute Travelling Salesmen Problem solution workloads across multiple WASM n
 #### TODO:
 
 - [x] POC client server message passing implementation
+- [x] Load wasm into browser
 - [ ] Send and receive messages directly from wasm
 - [ ] Implement TSP Solution Server
 - [ ] Implement TSP Solution Client
